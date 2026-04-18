@@ -24,6 +24,7 @@ function ContactForm() {
         placeholder="Enter your name"
         value={name}
         onChange={(e) => setName(e.target.value)}
+        required
       />
 
       <input
@@ -31,12 +32,14 @@ function ContactForm() {
         placeholder="Enter your email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        required
       />
 
       <textarea
         placeholder="Enter your message"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
+        required
       ></textarea>
 
       <button type="submit">Send Message</button>

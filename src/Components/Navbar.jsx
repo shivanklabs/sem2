@@ -19,6 +19,7 @@ function Navbar({ darkMode, setDarkMode }) {
       <div className="nav-actions">
         <button
           className="theme-toggle"
+          aria-label={darkMode ? 'Switch to light theme' : 'Switch to dark theme'}
           onClick={() => setDarkMode(!darkMode)}
         >
           {darkMode ? <FaSun /> : <FaMoon />}
@@ -26,6 +27,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
         <button
           className="menu-toggle"
+          aria-label="Toggle navigation menu"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <FaBars />

@@ -2,6 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
+        <span className="section-eyebrow">Available for Frontend Work</span>
         <h2>Shiv Portfolio</h2>
         <p>
           Building responsive and modern web applications using React.
@@ -35,7 +36,7 @@ function Footer() {
       </div>
 
       <p className="copyright">
-        © 2026 Shiv Portfolio. All rights reserved.
+        Copyright 2026 Shiv Portfolio. All rights reserved.
       </p>
     </footer>
   )

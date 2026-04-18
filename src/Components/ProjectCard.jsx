@@ -1,13 +1,17 @@
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
-function ProjectCard({ title, description, tech, image }) {
+function ProjectCard({ title, description, tech, image, category, impact }) {
   return (
     <div className="project-card">
-      <img src={image} alt={title} className="project-image" />
+      <div className="project-media">
+        <img src={image} alt={title} className="project-image" />
+        {category && <span className="project-category">{category}</span>}
+      </div>
 
       <div className="project-content">
         <h3>{title}</h3>
         <p>{description}</p>
+        {impact && <p className="project-impact">{impact}</p>}
 
         <div className="tech-stack">
           {tech.map((item, index) => (

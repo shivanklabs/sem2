@@ -3,7 +3,7 @@ import ProjectCard from '../Components/ProjectCard'
 import projectsData from '../Data/ProjectsData'
 
 function Projects() {
-  const [projects, setProjects] = useState(projectsData)
+  const [projects] = useState(projectsData)
   const [search, setSearch] = useState('')
 
   useEffect(() => {
@@ -16,7 +16,13 @@ function Projects() {
 
   return (
     <section className="projects-page">
-      <h1>Featured Projects</h1>
+      <div className="section-header">
+        <span className="section-eyebrow">Selected Work</span>
+        <h1>Featured Projects</h1>
+        <p>
+          Focused builds that combine React, polished interfaces, and market-aware product thinking.
+        </p>
+      </div>
 
       <input
         type="text"
