@@ -1,7 +1,17 @@
 import Skills from '../Components/Skills'
 
 function About() {
-  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'C++', 'Python']
+  const skills = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Responsive Design',
+    'Framer Motion',
+    'Git',
+    'C++',
+    'Python'
+  ]
 
   return (
     <section className="about-page">
@@ -9,7 +19,7 @@ function About() {
         <h1>About Me</h1>
         <p>
           I am a BCA student with strong interest in frontend development,
-          React JS, clean UI design and responsive websites.
+          React JS, clean UI design, responsive websites, and polished dashboard interfaces.
         </p>
       </div>
 
@@ -18,7 +28,7 @@ function About() {
           <span className="card-kicker">Foundation</span>
           <h2>Education</h2>
           <p>BCA First Year Student</p>
-          <p>Focused on programming, web development and software concepts.</p>
+          <p>Focused on programming, web development, software concepts, and product-ready frontend execution.</p>
         </div>
 
         <div className="about-card">
@@ -26,7 +36,7 @@ function About() {
           <h2>Goals</h2>
           <p>
             My goal is to become a skilled frontend developer and create
-            modern web applications using React.
+            modern web applications using React with a premium, reliable user experience.
           </p>
         </div>
       </div>
@@ -64,6 +74,20 @@ function About() {
             <p>Check builds and behavior so the final portfolio is presentable and stable.</p>
           </article>
         </div>
+      </div>
+
+      <div className="toolkit-panel">
+        <div>
+          <span className="section-eyebrow">Toolkit</span>
+          <h2>Built around practical frontend habits.</h2>
+        </div>
+
+        <ul>
+          <li>Reusable React components with clear props and focused responsibilities.</li>
+          <li>Responsive CSS grids, stable spacing, and readable text on small screens.</li>
+          <li>Interaction states for buttons, forms, cards, navigation, and project filters.</li>
+          <li>Portfolio storytelling that connects skills, services, projects, and contact intent.</li>
+        </ul>
       </div>
     </section>
   )

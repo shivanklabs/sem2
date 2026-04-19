@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
-import { FaArrowRight, FaDownload } from 'react-icons/fa'
+import { FaArrowRight, FaDownload, FaCode, FaLayerGroup, FaChartLine } from 'react-icons/fa'
 
 const MotionHeading = motion.h1
 
@@ -9,9 +9,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <span className="hero-badge">
-          Frontend Developer | Trading Enthusiast
-        </span>
+        <span className="hero-badge">Frontend Developer | Trading UI Builder</span>
 
         <MotionHeading
           initial={{ opacity: 0, y: 40 }}
@@ -29,14 +27,14 @@ function Hero() {
         />
 
         <p>
-          I create modern React applications with smooth animations,
-          premium UI design, and responsive layouts.
+          I build crisp React interfaces with disciplined spacing, fast
+          interactions, responsive layouts, and a premium black-and-white visual system.
         </p>
 
         <div className="hero-proof">
-          <span>Design-led React builds</span>
-          <span>Responsive by default</span>
-          <span>Market dashboard focus</span>
+          <span>Interface systems</span>
+          <span>Responsive polish</span>
+          <span>Dashboard thinking</span>
         </div>
 
         <div className="hero-buttons">
@@ -52,10 +50,10 @@ function Hero() {
 
       <div className="hero-visual" aria-label="Portfolio highlights">
         <div className="profile-card">
-          <div className="profile-avatar" img src="/path/to/avatar.jpg" alt="Shiv" ></div>
+          <div className="profile-avatar" aria-hidden="true">S</div>
           <div>
-            <span>Available for select work</span>
-            <strong>Frontend Portfolio</strong>
+            <span>Available for select builds</span>
+            <strong>Shiv Kumar</strong>
           </div>
         </div>
 
@@ -79,22 +77,10 @@ function Hero() {
           </div>
         </div>
 
-        <div className="market-widget">
-          <p>Live Skill Index</p>
-          <h2>92%</h2>
-          <div className="sparkline">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-
         <div className="quality-row">
-          <span>React</span>
-          <span>Motion</span>
-          <span>UI Polish</span>
+          <span><FaCode /> React</span>
+          <span><FaLayerGroup /> Systems</span>
+          <span><FaChartLine /> Data UI</span>
         </div>
       </div>
     </section>

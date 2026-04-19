@@ -5,7 +5,8 @@ function Footer() {
         <span className="section-eyebrow">Available for Frontend Work</span>
         <h2>Shiv Portfolio</h2>
         <p>
-          Building responsive and modern web applications using React.
+          Build the next polished interface with React pages, dashboard screens,
+          responsive fixes, and portfolio-grade UI polish.
         </p>
 
         <div className="social-links">

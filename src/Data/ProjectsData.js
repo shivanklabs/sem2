@@ -26,6 +26,24 @@
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
     category: 'Personal Brand',
     impact: 'Polished presentation with motion and theme support'
+  },
+  {
+    id: 4,
+    title: 'Agency Landing Page',
+    description: 'A high-contrast landing page concept with premium sections and conversion-focused layout.',
+    tech: ['React', 'CSS Grid', 'Responsive UI'],
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
+    category: 'Marketing UI',
+    impact: 'Sharp first impression with clear service and CTA structure'
+  },
+  {
+    id: 5,
+    title: 'Finance Watchlist',
+    description: 'A compact market watchlist interface for tracking assets, trends, and quick signals.',
+    tech: ['React', 'API', 'Data UI'],
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3',
+    category: 'Trading Tool',
+    impact: 'Readable data cards and fast comparison for market movement'
   }
 ]
 
